@@ -1,0 +1,26 @@
+<html>
+<head>
+  <link href="gen_art.css" rel="stylesheet">
+</head>
+<body>
+  <div class="menu">
+    <div><button id="prev">Prev</button> | <button id="next">Next</button> | Save | Reload | Show config</div>
+    <div id="rendering">rendering...</div>
+  </div>
+
+  <svg id="svg" viewBox="-1 -1 2 2" xmlns="http://www.w3.org/2000/svg"></svg>
+  <div id="title"></div>
+<!-- todo:
+  - svg with different aspect ratio
+  - background thread
+-->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/csrng.js"></script>
+  <script src="js/layout/uniform-random.js"></script>
+  <script src="js/layout/best-candidate.js"></script>
+  <script src="js/layout/grid.js"></script>
+  <script src="js/layout/poisson-disc.js"></script>
+
+  <script src="js/gen_art.js"></script>
+</body>
+</html>

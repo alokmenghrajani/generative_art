@@ -1,0 +1,6 @@
+[
+  "configs/00-uniform-random.json",
+  "configs/01-best-candidate.json",
+  "configs/02-grid.json",
+  "configs/03-poisson-disc.json"
+]

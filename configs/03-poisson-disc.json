@@ -1,0 +1,22 @@
+{
+  "title": "Poisson disc",
+  "background": "#222",
+  "foreground": "#eee",
+  "components": [{
+    "name": "images/sqlogo.png",
+    "rng": {
+      "algorithm": "csrng",
+      "seed": "1802519"
+    },
+    "points": {
+      "layout": {
+        "algorithm": "poisson-disc",
+        "min_distance": 0.04,
+        "number": 500,
+        "prob": 0.97
+      },
+      "size": 0.002,
+      "color": "#eee"
+    }
+  }]
+}

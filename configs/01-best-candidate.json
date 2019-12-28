@@ -1,0 +1,22 @@
+{
+  "title": "Best candidate",
+  "background": "#2a2a2a",
+  "foreground": "#eee",
+  "components": [{
+    "name": "images/twitter.png",
+    "rng": {
+      "algorithm": "csrng",
+      "seed": ""
+    },
+    "points": {
+      "layout": {
+        "algorithm": "best-candidate",
+        "candidates": 10,
+        "number": 10000,
+        "prob": 0.97
+      },
+      "size": 0.001,
+      "color": "#1da1f2"
+    }
+  }]
+}

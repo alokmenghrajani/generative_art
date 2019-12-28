@@ -1,0 +1,21 @@
+{
+  "title": "Uniform random",
+  "background": "#222",
+  "foreground": "#eee",
+  "components": [{
+    "name": "images/sqlogo.png",
+    "rng": {
+      "algorithm": "csrng",
+      "seed": ""
+    },
+    "points": {
+      "layout": {
+        "algorithm": "uniform-random",
+        "number": 5000,
+        "prob": 0.97
+      },
+      "size": 0.001,
+      "color": "#eee"
+    }
+  }]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Heart grid",
+  "background": "#2F2440",
+  "foreground": "#BA0F30",
+  "components": [{
+    "name": "images/heart.png",
+    "rng": {
+      "algorithm": "csrng",
+      "seed": ""
+    },
+    "points": {
+      "layout": {
+        "algorithm": "grid",
+        "number": 5000,
+        "prob": 0.97,
+        "spacing_x": 0.01,
+        "spacing_y": 0.03
+      },
+      "size": 0.002,
+      "color": "#FF2511"
+    }
+  }]
+}
